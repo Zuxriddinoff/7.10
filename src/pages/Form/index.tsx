@@ -40,7 +40,7 @@ const Form = () => {
   const {
     register,
     handleSubmit,
-    setValue,
+    // setValue,
     formState: { errors },
     reset,
   } = useForm<IUserForm>({
